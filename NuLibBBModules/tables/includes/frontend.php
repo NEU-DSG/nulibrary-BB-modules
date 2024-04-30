@@ -1,11 +1,8 @@
 <?php
 
-$table_box_start = '';
-$table_box_end   = '';
-if ( 'standard' === $settings->border_type ) {
 	$table_box_start = '<div class="fl-table-box">';
 	$table_box_end   = '</div>';
-}
+
 ?>
 <div class="fl-table fl-table-border-type-standard fl-table-column-height-auto fl-table-straight">
 	<?php
